@@ -6,11 +6,14 @@ Digilent provides board files for each FPGA development board. These files make 
 
 The board files will be copied into your version of Vivado's installation directory
 
-a. Download the most recent Master Branch ZIP Archive (https://github.com/Digilent/vivado-boards/archive/master.zip) of Digilent's vivado-boards Github repository (https://github.com/Digilent/vivado-boards) and extract it.
+#### Step 1
+Download the most recent Master Branch ZIP Archive (https://github.com/Digilent/vivado-boards/archive/master.zip) of Digilent's vivado-boards Github repository (https://github.com/Digilent/vivado-boards) and extract it.
 
-b. Open the folder extracted from the archive and navigate to its new/board_files folder. You will be copying all of this folder's subfolders.
+#### Step 2
+Open the folder extracted from the archive and navigate to its new/board_files folder. You will be copying all of this folder's subfolders.
 
-c. Open the folder that Vivado was installed into - e.g. C:/Xilinx/Vivado by default. Under this folder, navigate to its <version>/data/boards/board_files directory. If this folder doesn't exist, create it.
+#### Step 3
+Open the folder that Vivado was installed into - e.g. C:/Xilinx/Vivado by default. Under this folder, navigate to its <version>/data/boards/board_files directory. If this folder doesn't exist, create it.
 Copy all of the folders found in vivado-boards' new/board_files folder, then paste them into this folder.
 
 Reference:
